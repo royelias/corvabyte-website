@@ -13,7 +13,7 @@ export const metrics = [
   { value: 4.9, decimals: 1, suffix: '/5', label: 'Average client rating' },
 ];
 
-export const clients = ['Northwind', 'Halcyon Labs', 'Meridian Health', 'Fieldnote', 'Larkspur Bank', 'Tessellate', 'Okapi Logistics'];
+export const clients = ['NPM', 'NODEJS', 'RUST', 'MONGODB', 'REACT', 'SQL SERVER', 'C#', 'PYTHON', 'JAVA', 'GO', 'PHP', 'SWIFT', 'KOTLIN', 'AI', 'DART', 'SCALA', 'PRIVATE AI'];
 
 export const steps = [
   {

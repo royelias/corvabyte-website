@@ -1,4 +1,4 @@
-import { RavenMark, Wordmark } from './Logo.jsx';
+import { BrandMark, Wordmark } from './Logo.jsx';
 
 // Small illustrative preview for each service tab.
 const Sk = ({ w, h, acc, pill }) => (
@@ -58,7 +58,7 @@ function DataMock() {
 function BrandMock() {
   return (
     <div className="mock" aria-hidden="true">
-      <div className="brand-lockup"><RavenMark size={84} /><Wordmark /></div>
+      <div className="brand-lockup"><BrandMark size={84} /><Wordmark /></div>
       <div className="swatches">
         {['#07090d', '#151b25', '#2d8cff', '#eef2f6'].map((c) => <i key={c} style={{ background: c }} />)}
       </div>

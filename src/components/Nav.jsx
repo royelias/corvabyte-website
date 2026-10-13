@@ -1,4 +1,4 @@
-import { RavenMark, Wordmark } from './Logo.jsx';
+import { BrandMark, Wordmark } from './Logo.jsx';
 import Button from './Button.jsx';
 import { navLinks } from '../data/content.js';
 
@@ -7,7 +7,7 @@ export default function Nav() {
     <header className="nav">
       <div className="wrap">
         <a className="brand" href="#top" aria-label="Corvabyte home">
-          <RavenMark />
+          <BrandMark />
           <Wordmark />
         </a>
         <ul>

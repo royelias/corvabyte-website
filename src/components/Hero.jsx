@@ -1,5 +1,6 @@
 import FlockCanvas from './FlockCanvas.jsx';
 import Button from './Button.jsx';
+import heroLogo from '../assets/logo/corvabyte-logo-dark-1774x887.png';
 
 export default function Hero() {
   return (

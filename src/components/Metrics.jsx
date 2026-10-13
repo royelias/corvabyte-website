@@ -14,7 +14,7 @@ export default function Metrics() {
                 <small>{m.suffix}</small>
               </div>
               <div className="lbl">{m.label}</div>
-              <div className="src">example figure</div>
+              <div className="src">{/* example figure */}</div>
             </div>
           ))}
         </div>
