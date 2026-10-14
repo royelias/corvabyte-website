@@ -284,6 +284,11 @@ section.block, footer {
 .contact-form input::placeholder, .contact-form textarea::placeholder { color: var(--fg-3); }
 .contact-form input:focus-visible, .contact-form textarea:focus-visible { outline: 2px solid var(--sheen); outline-offset: 2px; }
 .contact-form .btn { justify-self: start; margin-top: 12px; }
+.contact-form .btn:disabled { opacity: .6; cursor: progress; }
+.contact-form-hp { display: none; }
+.contact-form-status { margin-top: 6px; font-size: .9rem; color: var(--fg-2); }
+.contact-form-status a { color: var(--sheen-2); }
+.contact-form-sent { margin-top: 26px; font-size: var(--step-1); color: var(--fg); }
 
 footer { border-top: 1px solid var(--line); padding-block: 28px; font-size: .85rem; color: var(--fg-3); }
 footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; }
