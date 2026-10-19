@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 const CONTACT_EMAIL = 'hello@corvabyte.com';
-const FORMBOOST_ENDPOINT = 'https://formboost.app/f/snysqg6d';
+const FORMBOOST_ENDPOINT = import.meta.env.VITE_FORMBOOST_ENDPOINT;
 
 export default function ContactModal({ onClose }) {
   const dialogRef = useRef(null);
