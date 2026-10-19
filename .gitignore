@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# ZIP / archive files
+*.zip
+
+# React / build output
+build/
+dist/
+
+# Environment files
+.env.example
+.env
+.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
