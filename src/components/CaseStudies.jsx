@@ -6,8 +6,8 @@ export default function CaseStudies() {
   return (
     <section className="block flush-top" id="work" aria-labelledby="work-title">
       <div className="wrap">
-        <SectionHead eyebrow="Selected work" title="Results our clients measure." id="work-title">
-          Placeholder case studies showing the format. Real projects and quotes go here once confirmed.
+        <SectionHead eyebrow="Selected work" title="What clients get working with us" id="work-title">
+          Real improvements, transparent delivery, and software engineered for demanding environments.
         </SectionHead>
         <div className="cases">
           {cases.map((c) => <CaseCard key={c.tag} {...c} />)}
